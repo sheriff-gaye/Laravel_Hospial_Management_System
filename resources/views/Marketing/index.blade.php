@@ -27,9 +27,9 @@
 
             <tr>
                 @foreach ($marketings as $key=>$marketing )
-                <td>Mrk0{{ $key +1 }}</td>
+                <td><strong>Mrk0{{ $key +1 }}</strong></td>
                 <td>{{ $marketing->name }}</td>
-                <td>{{ $marketing->phone }}</td>
+                <td>+220-{{ $marketing->phone }}</td>
                 <td>
                     <div class="row ">
                     <a href="{{ route('marketing.edit',[$marketing->id]) }}" class="btn btn-primary btn-sm">Edit  <i class="fa fa-edit" aria-hidden="true"></i></a>

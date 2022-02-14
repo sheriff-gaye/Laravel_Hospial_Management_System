@@ -122,3 +122,5 @@ class PharmacyController extends Controller
         return redirect()->route('pharmacy.index')->with('message','Pharmacy Deleted Successfully');
     }
 }
+
+

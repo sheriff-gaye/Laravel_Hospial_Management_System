@@ -44,7 +44,7 @@
             <div class="inner">
               <h3>{{ $patient->count() }}</h3>
 
-              <p>Pateince</p>
+              <p>Patients</p>
             </div>
             <div class="icon">
                 <i class="fas fa-hospital-user" aria-hidden="true"></i>
@@ -85,8 +85,7 @@
         </div>
         <!-- ./col -->
       </div>
-      <!-- /.row -->
-      <!-- Main row -->
+
 
 
 @endsection

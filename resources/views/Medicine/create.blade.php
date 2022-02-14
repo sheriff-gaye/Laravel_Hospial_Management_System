@@ -82,7 +82,7 @@
           <!--descrition starts here-->
           <div class=" row mb-2">
             <label for="description ">Description<span style="color: red">*</span></label>
-            <textarea name="description" id="editor" class="form-control   @error('description') is-invalid @enderror"    autofocus>{{ old('description') }}</textarea>
+            <textarea name="description" id="editor" class="form-control   @error('description') is-invalid @enderror"    autofocus>{!! old('description') !!}</textarea>
             @error('description')
             <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>

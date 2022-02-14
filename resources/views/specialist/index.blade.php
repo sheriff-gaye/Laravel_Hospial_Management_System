@@ -18,7 +18,7 @@
 </div>
 <!--end of header-->
 @if (Session::has('message'))
-<div class=" alert alert-success  row col-md-3  offset-7" style="margin-top: -45px">
+<div class=" alert alert-success  row col-md-4  offset-7" style="margin-top: -45px">
     {{Session::get('message')}}  <i class="fa fa-check-circle" aria-hidden="true"style="margin: 5px 0 0 5px"></i>
 </div>
 @endif

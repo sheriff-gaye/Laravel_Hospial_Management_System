@@ -81,7 +81,7 @@
           <!--descrition starts here-->
           <div class=" row mb-2">
             <label for="description">Description<span style="color: red">*</span></label>
-            <textarea name="description" id="editor" class="form-control   @error('description') is-invalid @enderror"    autofocus>{{ $medicine->description }}</textarea>
+            <textarea name="description" id="editor" class="form-control   @error('description') is-invalid @enderror"    autofocus>{!! $medicine->description !!}</textarea>
             <script>
                 ClassicEditor
                     .create( document.querySelector( '#editor' ) )
